@@ -1,15 +1,20 @@
 <template>
   <div class="max-w-sm rounded overflow-hidden shadow-2xl">
-    <img
+    <div class="relative">
+      <p class="text-white ml-2 absolute bottom-0 right-2">{{imageIndicator}}</p>
+      <img
       class="w-full"
       :src="images[imageIndex].large"
       alt="Airbnb listing photo"
     />
+
+    </div>
+    
     <div class="flex justify-between">
       <button class="btn text-blue-700 ml-2" @click="viewPreviousImage">Previous</button>
       <button class="btn text-blue-700 mr-2" @click="viewNextImage">Next</button>
     </div>
-    <div class="px-6 py-4 pb-2">
+    <div class="px-6 py-2 pb-2">
       <div class="font-bold text-xl mb-2">{{ title }}</div>
 
       <div class="flex direction-row gap-4 mb-3">
@@ -25,14 +30,15 @@
 
         <div class="flex items-center">
           <BuildingOffice2Icon class="h-6 w-6 text-grey-500" />
-          <div>{{ city }}</div>
+          <div>{{ address }}</div>
         </div>
       </div>
 
       <p class="text-gray-700 text-base">
-        {{ shortDescription }}
+        {{ descriptionView }}
       </p>
-      <p class="text-blue-700 text-base">read more</p>
+      <button v-if="showFullDescription" class="btn text-blue-700 text-base" @click="toggleReadMore()">show less</button>
+      <button v-else class="btn text-blue-700 text-base" @click="toggleReadMore()">read more</button>
     </div>
   </div>
 </template>
@@ -72,10 +78,15 @@ export default {
       type: String,
       default: "City",
     },
+    country: {
+      type: String,
+      default: "Country",
+    },
   },
   data() {
     return {
       imageIndex: 0,
+      showFullDescription: false
     };
   },
   methods: {
@@ -93,11 +104,24 @@ export default {
         this.imageIndex = this.imageIndex - 1;
       }
     },
+    toggleReadMore() {
+      this.showFullDescription = !this.showFullDescription
+    }
   },
   computed: {
-    shortDescription() {
-      return this.description.substring(0, 200) + "...";
+    descriptionView() {
+      if(this.showFullDescription){
+        return this.description.substring(0, 400) + "...";
+      }else{
+        return this.description.substring(0, 100) + "...";
+      }
     },
+    imageIndicator() {
+      return (this.imageIndex + 1) + "/" + this.images.length
+    },
+    address() {
+      return this.city + ", " + this.country
+    }
   },
 };
 </script>

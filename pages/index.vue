@@ -1,37 +1,24 @@
 <template>
-  <div>
-    <NavBar />
-    <div v-if="airbnbData" class="flex justify-center gap-5">
-      <ListingCard
-        :title="airbnbData.name"
-        :images="airbnbData.photos"
-        :description="airbnbData.sectionedDescription.description"
-        :stars="airbnbData.reviewsModule.localizedOverallRating"
-        :numberOfGuests="airbnbData.numberOfGuests"
-        :city="airbnbData.city"
-      />
-      <!-- <ListingCard
-        :title="airbnbData.name"
-        :headerPhoto="airbnbData.photos[0].large"
-        :description="airbnbData.sectionedDescription.description"
-      />
-      <ListingCard
-        :title="airbnbData.name"
-        :headerPhoto="airbnbData.photos[0].large"
-        :description="airbnbData.sectionedDescription.description"
-      /> -->
-    </div>
+  <div v-if="airbnbData" class="flex justify-center gap-5">
+    <ListingCard
+      :title="airbnbData.name"
+      :images="airbnbData.photos"
+      :description="airbnbData.sectionedDescription.description"
+      :stars="airbnbData.reviewsModule.localizedOverallRating"
+      :numberOfGuests="airbnbData.numberOfGuests"
+      :city="airbnbData.city"
+      :country="airbnbData.country"
+    />
   </div>
 </template>
 
 <script>
 import axios from "axios";
-import NavBar from "~/components/NavBar.vue";
-import ListingCard from "~/components/card/ListingCard.vue";
+import ListingCard from "~/components/ListingCard.vue";
 
 export default {
   name: "IndexPage",
-  components: { NavBar, ListingCard },
+  components: { ListingCard },
   data() {
     return {
       airbnbData: null,

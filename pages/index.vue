@@ -1,5 +1,5 @@
 <template>
-  <div v-if="airbnbData" class="flex justify-center gap-9">
+  <div v-if="airbnbData" class="flex justify-center gap-9 flex-wrap">
     <div class="flex-col">
       <h1 class="font-medium leading-tight text-5xl mt-0 mb-2 text-black-600">Our appartement</h1>
       <ListingCard
@@ -13,7 +13,7 @@
       />
     </div>
 
-    <div class="flex-col flex-wrap">
+    <div class="flex-col">
       <h1 class="font-medium leading-tight text-5xl mt-0 mb-2 text-black-600">What our guests think</h1>
       <ReviewCard
         v-for="review in airbnbData.reviews"

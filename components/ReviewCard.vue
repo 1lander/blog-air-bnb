@@ -1,6 +1,6 @@
 <template>
   <div
-    class="max-w-lg my-5 py-2 px-6 rounded overflow-hidden bg-neutral-50 shadow-md"
+    class="max-w-lg mb-5 py-2 px-6 rounded overflow-hidden bg-neutral-50 shadow-md"
   >
     <div class="flex items-center mb-1 gap-2">
       <img

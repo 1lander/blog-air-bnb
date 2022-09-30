@@ -1,18 +1,23 @@
 <template>
-  <div class="max-w-sm rounded overflow-hidden shadow-2xl">
+  <div class="max-w-sm rounded overflow-hidden bg-neutral-50 shadow-md">
     <div class="relative">
-      <p class="text-white ml-2 absolute bottom-0 right-2">{{imageIndicator}}</p>
+      <p class="text-white ml-2 absolute bottom-0 right-2">
+        {{ imageIndicator }}
+      </p>
       <img
-      class="w-full"
-      :src="images[imageIndex].large"
-      alt="Airbnb listing photo"
-    />
-
+        class="w-full"
+        :src="images[imageIndex].large"
+        alt="Airbnb listing photo"
+      />
     </div>
-    
+
     <div class="flex justify-between">
-      <button class="btn text-blue-700 ml-2" @click="viewPreviousImage">Previous</button>
-      <button class="btn text-blue-700 mr-2" @click="viewNextImage">Next</button>
+      <button class="btn text-blue-700 ml-2" @click="viewPreviousImage">
+        Previous
+      </button>
+      <button class="btn text-blue-700 mr-2" @click="viewNextImage">
+        Next
+      </button>
     </div>
     <div class="px-6 py-2 pb-2">
       <div class="font-bold text-xl mb-2">{{ title }}</div>
@@ -37,8 +42,20 @@
       <p class="text-gray-700 text-base">
         {{ descriptionView }}
       </p>
-      <button v-if="showFullDescription" class="btn text-blue-700 text-base" @click="toggleReadMore()">show less</button>
-      <button v-else class="btn text-blue-700 text-base" @click="toggleReadMore()">read more</button>
+      <button
+        v-if="showFullDescription"
+        class="btn text-blue-700 text-base"
+        @click="toggleReadMore()"
+      >
+        show less
+      </button>
+      <button
+        v-else
+        class="btn text-blue-700 text-base"
+        @click="toggleReadMore()"
+      >
+        read more
+      </button>
     </div>
   </div>
 </template>
@@ -86,42 +103,42 @@ export default {
   data() {
     return {
       imageIndex: 0,
-      showFullDescription: false
+      showFullDescription: false,
     };
   },
   methods: {
     viewNextImage() {
       if (this.imageIndex >= this.images.length - 1) {
         return;
-      }else{
+      } else {
         this.imageIndex = this.imageIndex + 1;
       }
     },
     viewPreviousImage() {
       if (this.imageIndex <= 0) {
         return;
-      }else{
+      } else {
         this.imageIndex = this.imageIndex - 1;
       }
     },
     toggleReadMore() {
-      this.showFullDescription = !this.showFullDescription
-    }
+      this.showFullDescription = !this.showFullDescription;
+    },
   },
   computed: {
     descriptionView() {
-      if(this.showFullDescription){
+      if (this.showFullDescription) {
         return this.description.substring(0, 400) + "...";
-      }else{
+      } else {
         return this.description.substring(0, 100) + "...";
       }
     },
     imageIndicator() {
-      return (this.imageIndex + 1) + "/" + this.images.length
+      return this.imageIndex + 1 + "/" + this.images.length;
     },
     address() {
-      return this.city + ", " + this.country
-    }
+      return this.city + ", " + this.country;
+    },
   },
 };
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-white">
     <NavBar />
     <NuxtPage />
   </div>

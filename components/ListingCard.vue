@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-sm rounded overflow-hidden bg-neutral-50 shadow-md">
+  <div class="max-w-xl rounded overflow-hidden bg-neutral-50 shadow-md">
     <div class="relative">
       <p class="text-white ml-2 absolute bottom-0 right-2">
         {{ imageIndicator }}
@@ -20,7 +20,7 @@
       </button>
     </div>
     <div class="px-6 py-2 pb-2">
-      <div class="font-bold text-xl mb-2">{{ title }}</div>
+      <div class="font-bold text-2xl mb-2">{{ title }}</div>
 
       <div class="flex direction-row gap-4 mb-3">
         <div class="flex items-center">
@@ -128,9 +128,9 @@ export default {
   computed: {
     descriptionView() {
       if (this.showFullDescription) {
-        return this.description.substring(0, 400) + "...";
+        return this.description;
       } else {
-        return this.description.substring(0, 100) + "...";
+        return this.description.substring(0, 400) + "...";
       }
     },
     imageIndicator() {

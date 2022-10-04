@@ -15,8 +15,11 @@
   },
   "dependencies": {
     "@heroicons/vue": "^2.0.11",
+    "@nuxtjs/composition-api": "^0.33.1",
     "@nuxtjs/tailwindcss": "^5.3.3",
+    "@pinia/nuxt": "^0.4.2",
     "axios": "^0.27.2",
-    "moment": "^2.29.4"
+    "moment": "^2.29.4",
+    "pinia": "^2.0.22"
   }
 }

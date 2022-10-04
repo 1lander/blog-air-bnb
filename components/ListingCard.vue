@@ -39,9 +39,8 @@
         </div>
       </div>
 
-      <p class="text-gray-700 text-base">
-        {{ descriptionView }}
-      </p>
+      <div v-html="descriptionView" class="text-gray-700 text-base"></div>
+
       <button
         v-if="showFullDescription"
         class="btn text-blue-700 text-base"

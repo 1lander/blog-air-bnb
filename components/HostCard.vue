@@ -1,6 +1,6 @@
 <template>
   <div
-    class="max-w-lg mb-5 py-2 px-6 rounded overflow-hidden bg-neutral-50 shadow-md"
+    class="max-w-xl mb-5 py-2 px-6 rounded overflow-hidden bg-neutral-50 shadow-md"
   >
     <div class="flex items-center mb-1 gap-2">
       <img
@@ -38,7 +38,8 @@
     <div class="flex flex-row items-center mb-2 mt-2">
       <LanguageIcon class="h-6 w-6 text-blue-400 ml-2" />
       <div v-for="(language, i) in languages">
-        <span>{{language}}</span>{{ i < languages.length -1 ? ', ': '' }}
+        <span>{{ language }}</span
+        >{{ i < languages.length - 1 ? ", " : "" }}
       </div>
     </div>
 

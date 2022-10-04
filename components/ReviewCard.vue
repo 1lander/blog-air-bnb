@@ -53,7 +53,7 @@ export default {
     },
     description: {
       type: String,
-      default: "Title",
+      default: "desc",
     },
     stars: {
       type: Number,

@@ -12,15 +12,33 @@
         <div class="flex flex-row items-center">
           <div class="font-bold text-2xl">{{ name }}</div>
         </div>
-        <div class="flex flex-row items-center">
-          <div v-for="badge in badges">
-            <div class="flex flex-row items-center">
-              <ChatBubbleBottomCenterIcon v-if="badge.id === 'reviews'" class="h-7 w-7 text-blue-400" />
-              <CheckBadgeIcon v-if="badge.id === 'identity-verified'" class="h-7 w-7 text-blue-400" />
-              <div>{{badge.label}}</div>
-            </div>
-          </div>
+        <div v-if="isSuperhost" class="flex flex-row items-center">
+          <TrophyIcon class="h-5 w-5 text-yellow-500" />
+          <div class="text-lg">Super Host</div>
         </div>
+      </div>
+    </div>
+
+    <div class="flex flex-row items-center mb-2 mt-2">
+      <div v-for="badge in badges">
+        <div class="flex flex-row items-center">
+          <ChatBubbleBottomCenterIcon
+            v-if="badge.id === 'reviews'"
+            class="h-6 w-6 text-blue-400 ml-2"
+          />
+          <CheckBadgeIcon
+            v-if="badge.id === 'identity-verified'"
+            class="h-6 w-6 text-blue-400 ml-2"
+          />
+          <div>{{ badge.label }}</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-row items-center mb-2 mt-2">
+      <LanguageIcon class="h-6 w-6 text-blue-400 ml-2" />
+      <div v-for="(language, i) in languages">
+        <span>{{language}}</span>{{ i < languages.length -1 ? ', ': '' }}
       </div>
     </div>
 
@@ -29,11 +47,21 @@
 </template>
 
 <script>
-import { CheckBadgeIcon, ChatBubbleBottomCenterIcon } from "@heroicons/vue/24/solid";
+import {
+  CheckBadgeIcon,
+  ChatBubbleBottomCenterIcon,
+  LanguageIcon,
+  TrophyIcon,
+} from "@heroicons/vue/24/solid";
 
 export default {
   name: "ReviewCard",
-  components: { CheckBadgeIcon, ChatBubbleBottomCenterIcon },
+  components: {
+    CheckBadgeIcon,
+    ChatBubbleBottomCenterIcon,
+    LanguageIcon,
+    TrophyIcon,
+  },
   props: {
     name: {
       type: String,

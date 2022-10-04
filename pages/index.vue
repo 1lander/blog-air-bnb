@@ -22,7 +22,7 @@
         <HostCardVue
           :name="store.host.name"
           :description="store.host.about"
-          :isSuperHost="store.host.isSuperhost"
+          :isSuperhost="store.host.isSuperhost"
           :badges="store.host.badges"
           :languages="store.host.languages"
           :profilePic="store.host.pictureUrl"

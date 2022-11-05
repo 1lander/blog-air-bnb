@@ -1,3 +1,57 @@
+<script setup>
+import {
+  StarIcon,
+  UserIcon,
+  BuildingOffice2Icon,
+} from "@heroicons/vue/24/solid";
+import moment from "moment";
+
+const props = defineProps({
+  title: {
+    type: String,
+    default: "Title",
+  },
+  description: {
+    type: String,
+    default: "desc",
+  },
+  stars: {
+    type: Number,
+    default: 0,
+  },
+  profilePic: {
+    type: String,
+    default: "profile pic",
+  },
+  datePosted: {
+    type: String,
+    default: moment(),
+  },
+})
+
+const showFullDescription = ref(false)
+
+const toggleReadMore = () => {
+  showFullDescription.value = !showFullDescription.value;
+}
+
+const descriptionView = computed(() => {
+  if (props.description.length < 180) {
+    return props.description;
+  } else {
+    if (showFullDescription.value) {
+      return props.description;
+    } else {
+      return props.description.substring(0, 180) + "...";
+    }
+  }
+}) 
+
+const formatedDate = computed(() => {
+  return moment(props.datePosted).format("DD/MM/YYYY");
+})
+</script>
+
 <template>
   <div
     class="max-w-lg mb-5 py-2 px-6 rounded overflow-hidden bg-neutral-50 shadow-md"
@@ -34,66 +88,3 @@
     <div class="text-gray-500">{{ formatedDate }}</div>
   </div>
 </template>
-
-<script>
-import {
-  StarIcon,
-  UserIcon,
-  BuildingOffice2Icon,
-} from "@heroicons/vue/24/solid";
-import moment from "moment";
-
-export default {
-  name: "ReviewCard",
-  components: { StarIcon, UserIcon, BuildingOffice2Icon },
-  props: {
-    title: {
-      type: String,
-      default: "Title",
-    },
-    description: {
-      type: String,
-      default: "desc",
-    },
-    stars: {
-      type: Number,
-      default: 0,
-    },
-    profilePic: {
-      type: String,
-      default: "profile pic",
-    },
-    datePosted: {
-      type: String,
-      default: moment(),
-    },
-  },
-  data() {
-    return {
-      imageIndex: 0,
-      showFullDescription: false,
-    };
-  },
-  methods: {
-    toggleReadMore() {
-      this.showFullDescription = !this.showFullDescription;
-    },
-  },
-  computed: {
-    descriptionView() {
-      if (this.description.length < 180) {
-        return this.description;
-      } else {
-        if (this.showFullDescription) {
-          return this.description;
-        } else {
-          return this.description.substring(0, 180) + "...";
-        }
-      }
-    },
-    formatedDate() {
-      return moment(this.datePosted).format("DD/MM/YYYY");
-    },
-  },
-};
-</script>

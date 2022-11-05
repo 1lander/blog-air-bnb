@@ -1,0 +1,1043 @@
+{
+  "url": "https://www.airbnb.com/rooms/14527835",
+  "name": "Rustige oase in de bruisende Nationalestraat",
+  "stars": 5,
+  "numberOfGuests": 2,
+  "address": "Antwerpen, Vlaanderen, België",
+  "roomType": "Gehele accommodatie: huurcomplex",
+  "location": {
+    "lat": 51.216,
+    "lng": 4.399
+  },
+  "reviews": [
+    {
+      "author": {
+        "firstName": "Maaike",
+        "hasProfilePic": true,
+        "id": "27846351",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/c5d0994b-fcc3-4a38-adf5-7082cb7f80d6.jpg?aki_policy=profile_x_medium",
+        "smartName": "Maaike",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/c5d0994b-fcc3-4a38-adf5-7082cb7f80d6.jpg?aki_policy=profile_small"
+      },
+      "comments": "Top locatie, stille kamer, en fijne studio. Aanrader!",
+      "createdAt": "2022-10-30T12:14:15Z",
+      "id": "749062892728657187",
+      "collectionTag": null,
+      "rating": 5,
+      "recipient": {
+        "firstName": "Tom & Carla",
+        "hasProfilePic": true,
+        "id": "2702001",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/e5ecfc51-bba7-4b11-956c-48ab69e78aab.jpg?aki_policy=profile_x_medium",
+        "smartName": "Tom & Carla",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/e5ecfc51-bba7-4b11-956c-48ab69e78aab.jpg?aki_policy=profile_small"
+      },
+      "response": null,
+      "localizedDate": "oktober 2022",
+      "localizedReview": null
+    },
+    {
+      "author": {
+        "firstName": "Kim",
+        "hasProfilePic": true,
+        "id": "374849134",
+        "pictureUrl": "https://a0.muscache.com/defaults/user_pic-225x225.png?v=3",
+        "smartName": "Kim",
+        "thumbnailUrl": "https://a0.muscache.com/defaults/user_pic-225x225.png?v=3"
+      },
+      "comments": "Het appartement is heel leuk ingericht en heeft een perfecte locatie! Ook hebben we veel van het mooie Antwerpen gezien en bij leuke cafeetjes gegeten (oa Nellys bij het Stadhuis). De communicatie met Carla en Tom was ook super!",
+      "createdAt": "2022-08-27T13:18:59Z",
+      "id": "702709826858806198",
+      "collectionTag": null,
+      "rating": 5,
+      "recipient": {
+        "firstName": "Tom & Carla",
+        "hasProfilePic": true,
+        "id": "2702001",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/e5ecfc51-bba7-4b11-956c-48ab69e78aab.jpg?aki_policy=profile_x_medium",
+        "smartName": "Tom & Carla",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/e5ecfc51-bba7-4b11-956c-48ab69e78aab.jpg?aki_policy=profile_small"
+      },
+      "response": null,
+      "localizedDate": "augustus 2022",
+      "localizedReview": null
+    },
+    {
+      "author": {
+        "firstName": "Laura",
+        "hasProfilePic": true,
+        "id": "96030813",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/e4b0a17e-6f50-4b46-a38f-9fc1fd68d2fb.jpg?aki_policy=profile_x_medium",
+        "smartName": "Laura",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/e4b0a17e-6f50-4b46-a38f-9fc1fd68d2fb.jpg?aki_policy=profile_small"
+      },
+      "comments": "Voor drie nachtjes gebleven in de studio, het was schoon, compleet, centraal gelegen maar toch rustig. Er stonden twee speciaalbiertjes in de koelkast. Ik zou het zo nog een keer boeken! :)",
+      "createdAt": "2022-08-03T14:13:51Z",
+      "id": "685342824584824983",
+      "collectionTag": null,
+      "rating": 5,
+      "recipient": {
+        "firstName": "Tom & Carla",
+        "hasProfilePic": true,
+        "id": "2702001",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/e5ecfc51-bba7-4b11-956c-48ab69e78aab.jpg?aki_policy=profile_x_medium",
+        "smartName": "Tom & Carla",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/e5ecfc51-bba7-4b11-956c-48ab69e78aab.jpg?aki_policy=profile_small"
+      },
+      "response": null,
+      "localizedDate": "augustus 2022",
+      "localizedReview": null
+    },
+    {
+      "author": {
+        "firstName": "Floris",
+        "hasProfilePic": true,
+        "id": "28765013",
+        "pictureUrl": "https://a0.muscache.com/im/users/28765013/profile_pic/1425503110/original.jpg?aki_policy=profile_x_medium",
+        "smartName": "Floris",
+        "thumbnailUrl": "https://a0.muscache.com/im/users/28765013/profile_pic/1425503110/original.jpg?aki_policy=profile_small"
+      },
+      "comments": "Heel fijn verblijf, dankjewel!",
+      "createdAt": "2022-07-10T12:47:28Z",
+      "id": "667904729329631041",
+      "collectionTag": null,
+      "rating": 5,
+      "recipient": {
+        "firstName": "Tom & Carla",
+        "hasProfilePic": true,
+        "id": "2702001",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/e5ecfc51-bba7-4b11-956c-48ab69e78aab.jpg?aki_policy=profile_x_medium",
+        "smartName": "Tom & Carla",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/e5ecfc51-bba7-4b11-956c-48ab69e78aab.jpg?aki_policy=profile_small"
+      },
+      "response": null,
+      "localizedDate": "juli 2022",
+      "localizedReview": null
+    },
+    {
+      "author": {
+        "firstName": "Iris",
+        "hasProfilePic": true,
+        "id": "11256688",
+        "pictureUrl": "https://a0.muscache.com/im/users/11256688/profile_pic/1389621912/original.jpg?aki_policy=profile_x_medium",
+        "smartName": "Iris",
+        "thumbnailUrl": "https://a0.muscache.com/im/users/11256688/profile_pic/1389621912/original.jpg?aki_policy=profile_small"
+      },
+      "comments": "Mijn dochter (19) en ik kwamen op vrijdag aan. Dankzij de duidelijke instructie konden we het goed vinden en was het binnen komen ook erg makkelijk. We kwamen binnen in een superleuke woning. Zo slim én leuk ingericht. We zijn tijdens ons weekendje heel veel buiten de deur geweest maar het was zo fijn om 'thuis' te komen steeds. De locatie is perfect. Hele fijne uitvalsbasis voor zowel noord als zuid. Openbaar vervoer verbindingen zijn goed en makkelijk. Voor toekomstige gasten die openbaar vervoer willen; koop een dagkaart of 3 daagse bij delijn.be. Wij hebben per ongeluk een dure antwerp city card gekocht alleen voor het ov... <br/><br/>Het kan best heel warm worden maar er staat een goede ventilator waar wij erg blij mee waren. <br/>De woning was keurig netjes en heel schoon. De bedden zijn heel makkelijk in en uit te klappen. <br/>Al met al was het een geweldig verblijf! Als we nog eens naar Antwerpen gaan zullen we zeker kijken of we hier weer kunnen verblijven. <br/>Tom & Carla, bedankt!",
+      "createdAt": "2022-06-26T13:06:49Z",
+      "id": "657767607563351424",
+      "collectionTag": null,
+      "rating": 5,
+      "recipient": {
+        "firstName": "Tom & Carla",
+        "hasProfilePic": true,
+        "id": "2702001",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/e5ecfc51-bba7-4b11-956c-48ab69e78aab.jpg?aki_policy=profile_x_medium",
+        "smartName": "Tom & Carla",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/e5ecfc51-bba7-4b11-956c-48ab69e78aab.jpg?aki_policy=profile_small"
+      },
+      "response": null,
+      "localizedDate": "juni 2022",
+      "localizedReview": null
+    },
+    {
+      "author": {
+        "firstName": "Lindy",
+        "hasProfilePic": true,
+        "id": "53048557",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/6c075a75-0198-47a2-96be-98b637ecd8cf.jpg?aki_policy=profile_x_medium",
+        "smartName": "Lindy",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/6c075a75-0198-47a2-96be-98b637ecd8cf.jpg?aki_policy=profile_small"
+      },
+      "comments": "Centrale ligging in Sint-Andries. Ondanks ingang aan drukke Nationalestraat toch rustig appartement.",
+      "createdAt": "2022-06-19T11:53:30Z",
+      "id": "652657276119217721",
+      "collectionTag": null,
+      "rating": 4,
+      "recipient": {
+        "firstName": "Tom & Carla",
+        "hasProfilePic": true,
+        "id": "2702001",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/e5ecfc51-bba7-4b11-956c-48ab69e78aab.jpg?aki_policy=profile_x_medium",
+        "smartName": "Tom & Carla",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/e5ecfc51-bba7-4b11-956c-48ab69e78aab.jpg?aki_policy=profile_small"
+      },
+      "response": null,
+      "localizedDate": "juni 2022",
+      "localizedReview": null
+    },
+    {
+      "author": {
+        "firstName": "Deveny",
+        "hasProfilePic": true,
+        "id": "363081353",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/41cb1dc9-fc01-4eba-abf2-a1914fb770ad.jpg?aki_policy=profile_x_medium",
+        "smartName": "Deveny",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/41cb1dc9-fc01-4eba-abf2-a1914fb770ad.jpg?aki_policy=profile_small"
+      },
+      "comments": "Mooi appartement van alle gemakken voorzien. De inrichting geeft je echt het gevoel of je midden in de natuur zit. Lekker dicht bij leuke winkels en lekkere eetgelegenheden.  Wij hebben een fijne vakantie gehad!",
+      "createdAt": "2022-05-25T13:29:46Z",
+      "id": "634586337654232125",
+      "collectionTag": null,
+      "rating": 4,
+      "recipient": {
+        "firstName": "Tom & Carla",
+        "hasProfilePic": true,
+        "id": "2702001",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/e5ecfc51-bba7-4b11-956c-48ab69e78aab.jpg?aki_policy=profile_x_medium",
+        "smartName": "Tom & Carla",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/e5ecfc51-bba7-4b11-956c-48ab69e78aab.jpg?aki_policy=profile_small"
+      },
+      "response": null,
+      "localizedDate": "mei 2022",
+      "localizedReview": null
+    },
+    {
+      "author": {
+        "firstName": "Mark",
+        "hasProfilePic": true,
+        "id": "136328043",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/4a1f890b-2cd9-4c2f-93cf-472125864f35.jpg?aki_policy=profile_x_medium",
+        "smartName": "Mark",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/4a1f890b-2cd9-4c2f-93cf-472125864f35.jpg?aki_policy=profile_small"
+      },
+      "comments": "Een heerlijk schoon appartement. Check in was duidelijk. Echt een rustige plek  maar wel dichtbij alle faciliteiten. Supermarkt zit aan de overkant van de straat en huurfietsen van Velo staan op de hoek. Te voet ben je in 10 minuten in het oude centrum. Een goed uitgerust appartement met een comfortabel bed.",
+      "createdAt": "2022-05-22T14:52:05Z",
+      "id": "632453440079827993",
+      "collectionTag": null,
+      "rating": 5,
+      "recipient": {
+        "firstName": "Tom & Carla",
+        "hasProfilePic": true,
+        "id": "2702001",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/e5ecfc51-bba7-4b11-956c-48ab69e78aab.jpg?aki_policy=profile_x_medium",
+        "smartName": "Tom & Carla",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/e5ecfc51-bba7-4b11-956c-48ab69e78aab.jpg?aki_policy=profile_small"
+      },
+      "response": null,
+      "localizedDate": "mei 2022",
+      "localizedReview": null
+    },
+    {
+      "author": {
+        "firstName": "Laura",
+        "hasProfilePic": true,
+        "id": "47199021",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/63840a5d-1ca9-464c-972c-314b2af075f4.jpg?aki_policy=profile_x_medium",
+        "smartName": "Laura",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/63840a5d-1ca9-464c-972c-314b2af075f4.jpg?aki_policy=profile_small"
+      },
+      "comments": "Een slim ingericht en licht appartement, waardoor het ruim oogt en voelt. Fijn bed en alles is aanwezig. Midden in de stad en inderdaad ontzettend rustig. Wij vonden het top!",
+      "createdAt": "2022-05-05T13:40:16Z",
+      "id": "620096106377735507",
+      "collectionTag": null,
+      "rating": 5,
+      "recipient": {
+        "firstName": "Tom & Carla",
+        "hasProfilePic": true,
+        "id": "2702001",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/e5ecfc51-bba7-4b11-956c-48ab69e78aab.jpg?aki_policy=profile_x_medium",
+        "smartName": "Tom & Carla",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/e5ecfc51-bba7-4b11-956c-48ab69e78aab.jpg?aki_policy=profile_small"
+      },
+      "response": null,
+      "localizedDate": "mei 2022",
+      "localizedReview": null
+    },
+    {
+      "author": {
+        "firstName": "Esmée",
+        "hasProfilePic": true,
+        "id": "109696008",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/44852030-fa6b-4992-bfdd-b394d1e74ffb.jpg?aki_policy=profile_x_medium",
+        "smartName": "Esmée",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/44852030-fa6b-4992-bfdd-b394d1e74ffb.jpg?aki_policy=profile_small"
+      },
+      "comments": "Super nette en schone Airbnb. Het zit erg centraal. Tom en Carla waren erg attente hosts, waardoor we ons heel welkom hebben gevoeld.",
+      "createdAt": "2022-03-27T13:29:50Z",
+      "id": "591824603196260920",
+      "collectionTag": null,
+      "rating": 5,
+      "recipient": {
+        "firstName": "Tom & Carla",
+        "hasProfilePic": true,
+        "id": "2702001",
+        "pictureUrl": "https://a0.muscache.com/im/pictures/user/e5ecfc51-bba7-4b11-956c-48ab69e78aab.jpg?aki_policy=profile_x_medium",
+        "smartName": "Tom & Carla",
+        "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/e5ecfc51-bba7-4b11-956c-48ab69e78aab.jpg?aki_policy=profile_small"
+      },
+      "response": null,
+      "localizedDate": "maart 2022",
+      "localizedReview": null
+    }
+  ],
+  "pricing": {},
+  "listingAmenities": [
+    {
+      "description": "De woning of het gebouw heeft een lift die ten minste 52 inch of 132 centimeter diep is en een deuropening van minimaal 32 inch of 81 centimeter breed.",
+      "id": 21,
+      "isPresent": true,
+      "name": "Lift"
+    },
+    {
+      "description": "Beschikbaar in de gehele accommodatie",
+      "id": 4,
+      "isPresent": true,
+      "name": "Wifi"
+    },
+    {
+      "description": "",
+      "id": 5,
+      "isPresent": false,
+      "name": "Airconditioning"
+    },
+    {
+      "description": "Keuken voor de gasten om maaltijden te maken",
+      "id": 8,
+      "isPresent": true,
+      "name": "Keuken"
+    },
+    {
+      "description": "",
+      "id": 2,
+      "isPresent": true,
+      "name": "Kabel TV"
+    },
+    {
+      "description": "",
+      "id": 46,
+      "isPresent": true,
+      "name": "Strijkijzer"
+    },
+    {
+      "description": "",
+      "id": 33,
+      "isPresent": false,
+      "name": "Wasmachine"
+    },
+    {
+      "description": "Handdoeken, beddengoed, zeep en wc-papier",
+      "id": 40,
+      "isPresent": true,
+      "name": "Basisvoorzieningen"
+    },
+    {
+      "description": "",
+      "id": 44,
+      "isPresent": true,
+      "name": "Kledinghangers"
+    },
+    {
+      "description": "",
+      "id": 41,
+      "isPresent": true,
+      "name": "Shampoo"
+    },
+    {
+      "description": "",
+      "id": 45,
+      "isPresent": true,
+      "name": "Föhn"
+    },
+    {
+      "description": "",
+      "id": 1,
+      "isPresent": true,
+      "name": "TV"
+    },
+    {
+      "description": "",
+      "id": 30,
+      "isPresent": true,
+      "name": "Verwarming"
+    },
+    {
+      "description": "",
+      "id": 79,
+      "isPresent": true,
+      "name": "Douchegel"
+    },
+    {
+      "description": "",
+      "id": 77,
+      "isPresent": true,
+      "name": "Warm water"
+    },
+    {
+      "description": "",
+      "id": 611,
+      "isPresent": true,
+      "name": "Douchegel"
+    },
+    {
+      "description": "",
+      "id": 85,
+      "isPresent": true,
+      "name": "Beddengoed"
+    },
+    {
+      "description": "",
+      "id": 671,
+      "isPresent": true,
+      "name": "Opbergruimte voor kleding"
+    },
+    {
+      "description": "",
+      "id": 522,
+      "isPresent": true,
+      "name": "Draagbare ventilatoren"
+    },
+    {
+      "description": "De verhuurder heeft niet aangegeven dat er een koolmonoxidemelder in de woning aanwezig is.",
+      "id": 36,
+      "isPresent": false,
+      "name": "Koolmonoxidemelder"
+    },
+    {
+      "description": "",
+      "id": 39,
+      "isPresent": true,
+      "name": "Blusapparaat"
+    },
+    {
+      "description": "",
+      "id": 35,
+      "isPresent": true,
+      "name": "Rookmelder"
+    },
+    {
+      "description": "",
+      "id": 90,
+      "isPresent": true,
+      "name": "Koffiezetapparaat"
+    },
+    {
+      "description": "Pannen, olie, zout en peper",
+      "id": 94,
+      "isPresent": true,
+      "name": "Kookbenodigdheden"
+    },
+    {
+      "description": "",
+      "id": 236,
+      "isPresent": true,
+      "name": "Eettafel"
+    },
+    {
+      "description": "Schalen, eetstokjes, borden, bekers, enz.",
+      "id": 93,
+      "isPresent": true,
+      "name": "Borden en bestek"
+    },
+    {
+      "description": "",
+      "id": 137,
+      "isPresent": true,
+      "name": "Waterkoker"
+    },
+    {
+      "description": "",
+      "id": 89,
+      "isPresent": true,
+      "name": "Magnetron"
+    },
+    {
+      "description": "",
+      "id": 95,
+      "isPresent": true,
+      "name": "Oven"
+    },
+    {
+      "description": "",
+      "id": 91,
+      "isPresent": true,
+      "name": "Koelkast"
+    },
+    {
+      "description": "",
+      "id": 96,
+      "isPresent": true,
+      "name": "Fornuis"
+    },
+    {
+      "description": "",
+      "id": 672,
+      "isPresent": true,
+      "name": "Wijnglazen"
+    },
+    {
+      "description": "",
+      "id": 663,
+      "isPresent": true,
+      "name": "Wasserette in de buurt"
+    },
+    {
+      "description": "Aparte ingang aan de straat of in het gebouw",
+      "id": 57,
+      "isPresent": true,
+      "name": "Eigen entree"
+    },
+    {
+      "description": "",
+      "id": 10,
+      "isPresent": true,
+      "name": "Betaald parkeren buiten het terrein"
+    },
+    {
+      "description": "Sta verblijven van 28 dagen of meer toe",
+      "id": 104,
+      "isPresent": true,
+      "name": "Langetermijnverblijven toegestaan"
+    },
+    {
+      "description": "",
+      "id": 54,
+      "isPresent": true,
+      "name": "Sleutelkastje"
+    }
+  ],
+  "rootAmenitySections": [
+    {
+      "id": "available_amenities",
+      "title": "Voorzieningen",
+      "subtitle": "",
+      "amenityIds": [
+        21,
+        4,
+        8,
+        2
+      ]
+    },
+    {
+      "id": "unavailable_safety_amenities",
+      "title": "Voorzieningen",
+      "subtitle": "De verhuurder heeft niet aangegeven dat er een koolmonoxidemelder in de woning aanwezig is.",
+      "amenityIds": [
+        36
+      ]
+    }
+  ],
+  "seeAllAmenitySections": [
+    {
+      "id": "pdp_m2_5_bathroom",
+      "title": "Badkamer",
+      "subtitle": "",
+      "amenityIds": [
+        41,
+        45,
+        79,
+        77,
+        611
+      ]
+    },
+    {
+      "id": "pdp_m2_5_bedroom_laundry",
+      "title": "Slaapkamer en was",
+      "subtitle": "",
+      "amenityIds": [
+        46,
+        40,
+        44,
+        85,
+        671
+      ]
+    },
+    {
+      "id": "pdp_m2_5_entertainment",
+      "title": "Amusement",
+      "subtitle": "",
+      "amenityIds": [
+        2,
+        1
+      ]
+    },
+    {
+      "id": "pdp_m2_5_heating_cooling",
+      "title": "Verwarming en verkoeling",
+      "subtitle": "",
+      "amenityIds": [
+        30,
+        522
+      ]
+    },
+    {
+      "id": "pdp_m2_5_home_safety",
+      "title": "Veiligheid in huis",
+      "subtitle": "",
+      "amenityIds": [
+        39,
+        35
+      ]
+    },
+    {
+      "id": "pdp_m2_5_internet_office",
+      "title": "Internet en kantoor",
+      "subtitle": "",
+      "amenityIds": [
+        4
+      ]
+    },
+    {
+      "id": "pdp_m2_5_kitchen_dining",
+      "title": "Keuken en eethoek",
+      "subtitle": "",
+      "amenityIds": [
+        8,
+        90,
+        94,
+        236,
+        93,
+        137,
+        89,
+        95,
+        91,
+        96,
+        672
+      ]
+    },
+    {
+      "id": "pdp_m2_5_location",
+      "title": "Locatiekenmerken",
+      "subtitle": "",
+      "amenityIds": [
+        663,
+        57
+      ]
+    },
+    {
+      "id": "pdp_m2_5_parking_facilities",
+      "title": "Parkeren en faciliteiten",
+      "subtitle": "",
+      "amenityIds": [
+        21,
+        10
+      ]
+    },
+    {
+      "id": "pdp_m2_5_services",
+      "title": "Services",
+      "subtitle": "",
+      "amenityIds": [
+        104,
+        54
+      ]
+    },
+    {
+      "id": "pdp_unavailable",
+      "title": "Niet inbegrepen",
+      "subtitle": "",
+      "amenityIds": [
+        5,
+        33,
+        36
+      ]
+    }
+  ],
+  "bathroomLabel": "1 badkamer",
+  "bedLabel": "2 bedden",
+  "bedroomLabel": "1 slaapkamer",
+  "hasHouseRules": true,
+  "id": 14527835,
+  "isNewListing": false,
+  "listingRooms": [
+    {
+      "beds": [
+        {
+          "id": "71695423/double_bed",
+          "quantity": 1,
+          "type": "double_bed"
+        },
+        {
+          "id": "71695423/single_bed",
+          "quantity": 1,
+          "type": "single_bed"
+        }
+      ],
+      "id": 71695423,
+      "roomNumber": 1
+    }
+  ],
+  "p3SummaryAddress": "Antwerpen, Vlaanderen, België",
+  "photos": [
+    {
+      "caption": "Beautifully designed studio, 30 m2",
+      "id": 817802258,
+      "large": "https://a0.muscache.com/im/pictures/cf93ae29-d3c9-4dac-bebf-f74e31c2084f.jpg?aki_policy=large",
+      "previewEncodedPng": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAO0lEQVQIHQEwAM//AdrPyN3h4PT78hcTHf7//QHg2tvs5tvDyqk5MkwCDhcBl6ey28/TISITHxUS+/z54TYbhD48OLoAAAAASUVORK5CYII=",
+      "scrimColor": "#312D2A",
+      "isProfessional": false,
+      "pictureOrientation": "LANDSCAPE",
+      "aspectRatio": 1.5027777777777778
+    },
+    {
+      "caption": "",
+      "id": 817801807,
+      "large": "https://a0.muscache.com/im/pictures/2b15152b-853a-435d-a815-e0c29c5a2900.jpg?aki_policy=large",
+      "previewEncodedPng": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAO0lEQVQIHQEwAM//AW5xSzIzSQ0OGhEPF/Tx4AGAgF9AQlfHx8hLTFX58+gBb21KKClCDRIf6eLa+PHWq3YUtquwHWkAAAAASUVORK5CYII=",
+      "scrimColor": "#3A3426",
+      "isProfessional": false,
+      "pictureOrientation": "LANDSCAPE",
+      "aspectRatio": 1.5027777777777778
+    },
+    {
+      "caption": "",
+      "id": 817801938,
+      "large": "https://a0.muscache.com/im/pictures/3bead9e7-8b70-424b-a1c2-b751da1fa619.jpg?aki_policy=large",
+      "previewEncodedPng": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAO0lEQVQIHQEwAM//AcS+t+3z8tjYyzc8T97k3AHFwsDw8ejp6uRQU2fJ0L0BwsHF3c285fLvOTxK7Pb5IvkhH/kDY0AAAAAASUVORK5CYII=",
+      "scrimColor": "#3D3834",
+      "isProfessional": false,
+      "pictureOrientation": "LANDSCAPE",
+      "aspectRatio": 1.5027777777777778
+    },
+    {
+      "caption": "",
+      "id": 817802142,
+      "large": "https://a0.muscache.com/im/pictures/b1ef2a5c-c142-4ff3-8ece-cf6fb1a03072.jpg?aki_policy=large",
+      "previewEncodedPng": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAO0lEQVQIHQEwAM//AYprTyM6TxghKPz9/ePn2wGqkX4JGiUZIy3x8fH5/u8Bon5hAxUoHTRB2dzRGRQQDI4VKXlvsGMAAAAASUVORK5CYII=",
+      "scrimColor": "#503B28",
+      "isProfessional": false,
+      "pictureOrientation": "LANDSCAPE",
+      "aspectRatio": 1.5027777777777778
+    },
+    {
+      "caption": "",
+      "id": 817802365,
+      "large": "https://a0.muscache.com/im/pictures/10188986-0719-40e8-833e-d2552f7d9cc9.jpg?aki_policy=large",
+      "previewEncodedPng": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAO0lEQVQIHQEwAM//AamdkxsiKPX59vT17cXQzgHGuKwMFBf7APy+vrvi8PEBrbC1AgIBHhoZ2N3e6eronIIbZz1qIe8AAAAASUVORK5CYII=",
+      "scrimColor": "#232821",
+      "isProfessional": false,
+      "pictureOrientation": "LANDSCAPE",
+      "aspectRatio": 1.5027777777777778
+    },
+    {
+      "caption": "",
+      "id": 817802485,
+      "large": "https://a0.muscache.com/im/pictures/d81b162b-4bca-4bef-8a0e-9fcb51b63ab9.jpg?aki_policy=large",
+      "previewEncodedPng": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAO0lEQVQIHQEwAM//AdbNxd/d2RwbHQULDubo8AHHwb/o4tYYFxrz9vb2+wUBtLfB8+XP9fT5+gEHCw0PmMAbFClxWREAAAAASUVORK5CYII=",
+      "scrimColor": "#4A3429",
+      "isProfessional": false,
+      "pictureOrientation": "LANDSCAPE",
+      "aspectRatio": 1.5027777777777778
+    },
+    {
+      "caption": "",
+      "id": 817802743,
+      "large": "https://a0.muscache.com/im/pictures/fa93d46b-aa32-48cc-8128-f225dad174da.jpg?aki_policy=large",
+      "previewEncodedPng": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAO0lEQVQIHQEwAM//AYV/YyIpOhATIAoKEO3lzQGVjXczOkXP0tdAQkfv49YBhntlDhMh/f8I5NrNHiMWs74TuMZLsagAAAAASUVORK5CYII=",
+      "scrimColor": "#40362C",
+      "isProfessional": false,
+      "pictureOrientation": "LANDSCAPE",
+      "aspectRatio": 1.5027777777777778
+    },
+    {
+      "caption": "",
+      "id": 817802887,
+      "large": "https://a0.muscache.com/im/pictures/406a26db-4a3f-400b-89ea-69a41db05dbe.jpg?aki_policy=large",
+      "previewEncodedPng": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAO0lEQVQIHQEwAM//AaiejQ8VH/wBAO/04ubv7QHOwbAGCg35A//V1svZ4+kB1dff/vz7Bw0O4unl2NzYfZ8c7rAfM9EAAAAASUVORK5CYII=",
+      "scrimColor": "#2A2F29",
+      "isProfessional": false,
+      "pictureOrientation": "LANDSCAPE",
+      "aspectRatio": 1.5027777777777778
+    },
+    {
+      "caption": "",
+      "id": 817803010,
+      "large": "https://a0.muscache.com/im/pictures/e1cb55d0-a6ff-4516-8de2-e048c280772e.jpg?aki_policy=large",
+      "previewEncodedPng": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAO0lEQVQIHQEwAM//Aa+lmBMaIfX69/X36dfh4AHNv68LERP8AgDGyb/l8vYB0tHV/wUNCAoI5Ojh3N3ZoT8b9swmZIgAAAAASUVORK5CYII=",
+      "scrimColor": "#353B31",
+      "isProfessional": false,
+      "pictureOrientation": "LANDSCAPE",
+      "aspectRatio": 1.5027777777777778
+    },
+    {
+      "caption": "",
+      "id": 817803128,
+      "large": "https://a0.muscache.com/im/pictures/659097a3-0f05-47c8-ad31-335836aa7fa8.jpg?aki_policy=large",
+      "previewEncodedPng": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAO0lEQVQIHQEwAM//AZSXciYmOwMGERIQGvz58gGbnoA9OkzK1NIyJTICBPoBc3ZYPjJACg0T5ubp7eTRnVkTTMRWkTkAAAAASUVORK5CYII=",
+      "scrimColor": "#39301F",
+      "isProfessional": false,
+      "pictureOrientation": "LANDSCAPE",
+      "aspectRatio": 1.5027777777777778
+    }
+  ],
+  "primaryHost": {
+    "about": "Ons gezin houdt van reizen. Nadat we diverse malen te gast waren bij airbnb verhuurders, wilden we graag zelf gastheer worden. Intussen is onze droom uitgekomen en kunnen we op twee locaties mensen van over de hele wereld ontvangen in ons geliefde Antwerpen.",
+    "badges": [
+      {
+        "count": 609,
+        "id": "reviews",
+        "label": "609 recensies",
+        "link": "/users/show/2702001#reviews"
+      },
+      {
+        "id": "identity-verified",
+        "label": "Identiteit geverifieerd"
+      }
+    ],
+    "firstName": "Tom & Carla",
+    "id": 2702001,
+    "isSuperhost": true,
+    "memberSinceFullStr": "Lid sinds juni 2012",
+    "name": "Tom & Carla",
+    "languages": [
+      "Nederlands",
+      "English",
+      "Français"
+    ],
+    "pictureUrl": "https://a0.muscache.com/im/pictures/user/e5ecfc51-bba7-4b11-956c-48ab69e78aab.jpg?aki_policy=profile_x_medium",
+    "responseRateWithoutNa": "100%",
+    "responseTimeWithoutNa": "binnen een uur",
+    "hasInclusionBadge": false,
+    "pictureLargeUrl": "https://a0.muscache.com/im/pictures/user/e5ecfc51-bba7-4b11-956c-48ab69e78aab.jpg?aki_policy=profile_large",
+    "hostIntroTags": [
+      "609 recensies",
+      "Geverifieerd"
+    ]
+  },
+  "roomTypeCategory": "entire_home",
+  "sectionedDescription": {
+    "access": "De studio bevindt zich op de 2e verdieping van een kleinschalig appartementsgebouw. Je kan de studio zowel met de trap als met de lift bereiken.",
+    "authorType": "human",
+    "description": "Onze studio  is gelegen in de bruisende Nationalestraat, die het hippe \"Zuid\" en de gezellige Groenplaats verbindt. Je vindt hier trendy winkels en restaurants in overvloed. Aangezien de studio zich bevindt aan de achterzijde van het gebouw, kan je er perfect tot rust komen na een drukke dag. Je zal ongetwijfeld het comfortabele bed en de nieuwe badkamer met inloopdouche appreciëren! De studio is geschikt voor maximaal twee personen.\n\nDe compleet gerenoveerde studio van 30m² heeft alles wat je nodig hebt. De badkamer herbergt een inloopdouche en een toilet. In de kitchenette kan je gebruik maken van een combi-oven (combinatie van klassieke oven en microgolf) en 2 kookplaten. We bieden onze gasten een uitstekend slaapcomfort. De uitklapbare bedden (één tweepersoonsbed en één enkel bed) zijn van uitstekende kwaliteit (merk: Clei) en bevatten allebei een volwaardige 7-pocketveren matras.\n\nDe studio bevindt zich op de 2e verdieping van een kleinschalig appartementsgebouw. Je kan de studio zowel met de trap als met de lift bereiken.\n\nBij vragen of problemen kan je ons bereiken per telefoon, e-mail, communicatie apps of SMS.\n\nDe Nationalestraat is een levendige straat die het trendy Zuid verbindt met de Oude Stad. In de studio heb je echter totaal geen last van de drukte, omdat die zich aan de achterzijde van het gebouw bevindt. Op 10 minuten wandel je naar de Groenplaats. Aan de overkant van de straat vind je een supermarkt (Carrefour), die ook op zondag open is. Er zijn volop eetgelegenheden voor elk budget in de onmiddellijke nabijheid.\n\nEr is een betalende publieke parking verderop in de straat (\"Cammerpoorte\", 19 EUR per 24u).  Ons advies luidt echter: parkeer aan de rand van de stad en neem de tram. Alle info op de website van sna punt be\nGasten die per trein komen: vanaf station \"Antwerpen-Centraal\", neem je eerst de pre-metro richting \"Linkeroever\" tot aan de halte \"Groenplaats\". Vanaf de Groenplaats kan je het appartement te voet bereiken .\n\nEven checken op sna.be of je auto het centrum in mag m.b.t. de nieuwe normen voor emissieuitstoot.",
+    "interaction": "Bij vragen of problemen kan je ons bereiken per telefoon, e-mail, communicatie apps of SMS.",
+    "locale": "nl",
+    "localizedLanguageName": "Nederlands",
+    "name": "Rustige oase in de bruisende Nationalestraat",
+    "neighborhoodOverview": "De Nationalestraat is een levendige straat die het trendy Zuid verbindt met de Oude Stad. In de studio heb je echter totaal geen last van de drukte, omdat die zich aan de achterzijde van het gebouw bevindt. Op 10 minuten wandel je naar de Groenplaats. Aan de overkant van de straat vind je een supermarkt (Carrefour), die ook op zondag open is. Er zijn volop eetgelegenheden voor elk budget in de onmiddellijke nabijheid.",
+    "notes": "Even checken op sna.be of je auto het centrum in mag m.b.t. de nieuwe normen voor emissieuitstoot.",
+    "space": "De compleet gerenoveerde studio van 30m² heeft alles wat je nodig hebt. De badkamer herbergt een inloopdouche en een toilet. In de kitchenette kan je gebruik maken van een combi-oven (combinatie van klassieke oven en microgolf) en 2 kookplaten. We bieden onze gasten een uitstekend slaapcomfort. De uitklapbare bedden (één tweepersoonsbed en één enkel bed) zijn van uitstekende kwaliteit (merk: Clei) en bevatten allebei een volwaardige 7-pocketveren matras.",
+    "summary": "Onze studio  is gelegen in de bruisende Nationalestraat, die het hippe \"Zuid\" en de gezellige Groenplaats verbindt. Je vindt hier trendy winkels en restaurants in overvloed. Aangezien de studio zich bevindt aan de achterzijde van het gebouw, kan je er perfect tot rust komen na een drukke dag. Je zal ongetwijfeld het comfortabele bed en de nieuwe badkamer met inloopdouche appreciëren! De studio is geschikt voor maximaal twee personen.",
+    "transit": "Er is een betalende publieke parking verderop in de straat (\"Cammerpoorte\", 19 EUR per 24u).  Ons advies luidt echter: parkeer aan de rand van de stad en neem de tram. Alle info op de website van sna punt be\nGasten die per trein komen: vanaf station \"Antwerpen-Centraal\", neem je eerst de pre-metro richting \"Linkeroever\" tot aan de halte \"Groenplaats\". Vanaf de Groenplaats kan je het appartement te voet bereiken ."
+  },
+  "tierId": 0,
+  "guestControls": {
+    "allowsChildren": false,
+    "allowsEvents": false,
+    "allowsInfants": false,
+    "allowsPets": false,
+    "allowsSmoking": false,
+    "personCapacity": 2,
+    "structuredHouseRules": [
+      "Niet veilig of geschikt voor kinderen (0-12 jaar) en huisdieren",
+      "Roken, feesten of evenementen zijn niet toegestaan",
+      "Inchecken kan tussen 14:00 en 23:00, en uitchecken moet voor 11:00"
+    ],
+    "structuredHouseRulesWithTips": [
+      {
+        "key": "are_children_infants_and_pets_allowed",
+        "text": "Niet veilig of geschikt voor kinderen (0-12 jaar) en huisdieren",
+        "airmojiKey": "accomodation_home"
+      },
+      {
+        "key": "are_smoking_and_events_allowed",
+        "text": "Roken, feesten of evenementen zijn niet toegestaan",
+        "airmojiKey": "accomodation_home"
+      },
+      {
+        "key": "check_in_time_and_check_out_time",
+        "text": "Inchecken kan tussen 14:00 en 23:00, en uitchecken moet voor 11:00",
+        "airmojiKey": "accomodation_keys"
+      },
+      {
+        "key": "self_check_in",
+        "text": "Zelf inchecken met sleutelkastje",
+        "airmojiKey": "pdp_room"
+      }
+    ],
+    "allowsNonChinaUsers": true
+  },
+  "hasSpecialOffer": false,
+  "maxNights": 90,
+  "minNights": 2,
+  "priceDetails": [
+    {
+      "label": "Schoonmaakkosten",
+      "value": "€ 25",
+      "attributeType": "CLEANING_FEE"
+    },
+    {
+      "label": "Extra mensen",
+      "value": "Geen kosten",
+      "attributeType": "EXTRA_PEOPLE"
+    },
+    {
+      "label": "Weekendtarief",
+      "value": "€ 85 per nacht",
+      "attributeType": "WEEKEND_PRICE"
+    }
+  ],
+  "hasWeWorkLocation": false,
+  "isBusinessTravelReady": false,
+  "additionalHosts": [],
+  "isHostedBySuperhost": true,
+  "hometourRooms": [
+    {
+      "details": [],
+      "highlightsHometour": [
+        "1 tweepersoonsbed",
+        "1 eenpersoonsbed"
+      ],
+      "highlightsPreview": [],
+      "isShared": false,
+      "id": 71695423,
+      "name": "",
+      "nameWithType": "Slaapkamer 1",
+      "photos": [],
+      "roomTypeId": 1,
+      "icons": [
+        {
+          "type": "double_bed",
+          "url": ""
+        },
+        {
+          "type": "single_bed",
+          "url": ""
+        }
+      ]
+    }
+  ],
+  "hometourSections": [],
+  "descriptionLocale": "nl",
+  "initialDescriptionAuthorType": "human",
+  "localizedCheckInTimeWindow": "14:00 - 23:00",
+  "localizedCheckOutTime": "11:00",
+  "city": "Antwerpen",
+  "country": "België",
+  "countryCode": "BE",
+  "hasHostGuidebook": false,
+  "hasLocalAttractions": false,
+  "neighborhoodCommunityTags": [],
+  "state": "Vlaanderen",
+  "paidGrowthRemarketingListingIds": [],
+  "hasCommercialHostInfo": true,
+  "reviewDetailsInterface": {
+    "reviewCount": 335,
+    "reviewSummary": [
+      {
+        "value": 10,
+        "label": "Nauwkeurigheid",
+        "localizedRating": "4,9",
+        "percentage": 0.978
+      },
+      {
+        "value": 10,
+        "label": "Communicatie",
+        "localizedRating": "5,0",
+        "percentage": 0.99
+      },
+      {
+        "value": 10,
+        "label": "Netheid",
+        "localizedRating": "4,8",
+        "percentage": 0.97
+      },
+      {
+        "value": 10,
+        "label": "Locatie",
+        "localizedRating": "4,9",
+        "percentage": 0.984
+      },
+      {
+        "value": 10,
+        "label": "Inchecken",
+        "localizedRating": "4,9",
+        "percentage": 0.986
+      },
+      {
+        "value": 9,
+        "label": "Waarde",
+        "localizedRating": "4,8",
+        "percentage": 0.958
+      }
+    ]
+  },
+  "reviewsOrder": "language_country",
+  "hostQuote": "",
+  "hostSignatureFont": {
+    "url": "https://a0.muscache.com/airbnb/static/temp-fonts/HandsomePro-Normal.otf"
+  },
+  "nearbyAirportDistanceDescriptions": [],
+  "propertyTypeInCity": "",
+  "renderTierId": 0,
+  "isHotel": false,
+  "showReviewTag": false,
+  "isRepresentativeInventory": false,
+  "localizedCity": "Antwerpen",
+  "highlights": [
+    {
+      "type": "LISTING_ENTIRE_HOME_PROPERTY_TYPE",
+      "message": "Je hebt het/de appartement voor jezelf.",
+      "headline": "Gehele woning",
+      "position": "0",
+      "icon": "accomodation_home"
+    },
+    {
+      "type": "LISTING_ENHANCED_CLEANING",
+      "message": "Deze host heeft ingestemd met het aangescherpte schoonmaakprotocol in vijf stappen van Airbnb.",
+      "headline": "Hygiënemaatregelen",
+      "position": "1"
+    },
+    {
+      "type": "LISTING_SELF_CHECKIN",
+      "message": "Check zelf in met het sleutelkastje.",
+      "headline": "Zelf inchecken",
+      "position": "2",
+      "icon": "pdp_room"
+    },
+    {
+      "type": "LISTING_SUPER_HOST",
+      "message": "Superhosts zijn ervaren, uitstekend beoordeelde hosts die er alles aan doen om gasten een geweldig verblijf te bezorgen.",
+      "headline": "Tom & Carla is een Superhost",
+      "position": "3",
+      "icon": "core_superhost"
+    }
+  ],
+  "highlightsImpressionId": "2dbd5c43-0643-55ac-3dcb-6d70197937b2",
+  "categorizedPreviewAmenities": [
+    {
+      "category": "Standaard",
+      "amenities": "Wifi, Keuken, Kabel TV, Strijkijzer, Basisvoorzieningen, en 17 meer"
+    },
+    {
+      "category": "Andere hoogtepunten",
+      "amenities": "Lift, Douchegel, Douchegel, Opbergruimte voor kleding, Draagbare ventilatoren, en 7 meer"
+    }
+  ],
+  "pointOfInterests": [],
+  "chinaPointsOfInterestMatcha": {},
+  "pageViewType": "DEFAULT",
+  "previewTags": [],
+  "seeAllHometourSections": [],
+  "educationModules": {},
+  "enableHighlightsVoting": false,
+  "listingExpectations": [
+    {
+      "title": "Geen parkeergelegenheid bij de accommodatie",
+      "type": "limited_parking",
+      "airmojiKey": "house_rules_no_parking"
+    }
+  ],
+  "localizedListingExpectations": [
+    {
+      "title": "Geen parkeergelegenheid bij de accommodatie",
+      "type": "limited_parking",
+      "airmojiKey": "house_rules_no_parking"
+    }
+  ],
+  "heroModule": {
+    "categorizedPhotos": []
+  },
+  "reviewsModule": {
+    "localizedOverallRating": "4,81",
+    "appreciationTags": []
+  },
+  "availabilityModule": {},
+  "additionalHouseRules": "",
+  "sortedReviews": [],
+  "documentDisplayPictures": [],
+  "sections": [],
+  "metadata": {},
+  "p3ImpressionId": "2dbd5c43-0643-55ac-3dcb-6d70197937b2",
+  "idStr": "14527835",
+  "paidGrowthRemarketingListingIdsStr": []
+}

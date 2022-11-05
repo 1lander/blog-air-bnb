@@ -1,3 +1,81 @@
+<script setup>
+import {
+  StarIcon,
+  UserIcon,
+  BuildingOffice2Icon,
+} from "@heroicons/vue/24/solid";
+
+const props = defineProps({
+  title: {
+    type: String,
+    default: "Title",
+  },
+  description: {
+    type: String,
+    default: "Title",
+  },
+  images: {
+    type: [Object],
+    default: [],
+  },
+  stars: {
+    type: String,
+    default: "0",
+  },
+  numberOfGuests: {
+    type: Number,
+    default: 1,
+  },
+  city: {
+    type: String,
+    default: "City",
+  },
+  country: {
+    type: String,
+    default: "Country",
+  },
+})
+
+const imageIndex = ref(0)
+const showFullDescription = ref(false)
+
+const viewNextImage = () => {
+  if (imageIndex.value >= props.images.length - 1) {
+    return
+  } else {
+    imageIndex.value = imageIndex.value + 1
+  }
+}
+
+const viewPreviousImage = () => {
+  if (imageIndex.value <= 0) {
+    return
+  } else {
+    imageIndex.value = imageIndex.value - 1
+  }
+}
+
+const toggleReadMore = () => {
+  showFullDescription.value = !showFullDescription.value
+}
+
+const descriptionView = computed(() => {
+  if (showFullDescription.value) {
+    return props.description;
+  } else {
+    return props.description.substring(0, 400) + "...";
+  }
+})
+
+const imageIndicator = computed(() => {
+  return imageIndex.valie + 1 + "/" + props.images.length;
+})
+
+const address = computed(() => {
+  return props.city + ", " + props.country;
+})
+</script>
+
 <template>
   <div class="max-w-xl rounded overflow-hidden bg-neutral-50 shadow-md">
     <div class="relative">
@@ -58,86 +136,3 @@
     </div>
   </div>
 </template>
-
-<script>
-import {
-  StarIcon,
-  UserIcon,
-  BuildingOffice2Icon,
-} from "@heroicons/vue/24/solid";
-
-export default {
-  name: "ListingCard",
-  components: { StarIcon, UserIcon, BuildingOffice2Icon },
-  props: {
-    title: {
-      type: String,
-      default: "Title",
-    },
-    description: {
-      type: String,
-      default: "Title",
-    },
-    images: {
-      type: [Object],
-      default: [],
-    },
-    stars: {
-      type: String,
-      default: "0",
-    },
-    numberOfGuests: {
-      type: Number,
-      default: 1,
-    },
-    city: {
-      type: String,
-      default: "City",
-    },
-    country: {
-      type: String,
-      default: "Country",
-    },
-  },
-  data() {
-    return {
-      imageIndex: 0,
-      showFullDescription: false,
-    };
-  },
-  methods: {
-    viewNextImage() {
-      if (this.imageIndex >= this.images.length - 1) {
-        return;
-      } else {
-        this.imageIndex = this.imageIndex + 1;
-      }
-    },
-    viewPreviousImage() {
-      if (this.imageIndex <= 0) {
-        return;
-      } else {
-        this.imageIndex = this.imageIndex - 1;
-      }
-    },
-    toggleReadMore() {
-      this.showFullDescription = !this.showFullDescription;
-    },
-  },
-  computed: {
-    descriptionView() {
-      if (this.showFullDescription) {
-        return this.description;
-      } else {
-        return this.description.substring(0, 400) + "...";
-      }
-    },
-    imageIndicator() {
-      return this.imageIndex + 1 + "/" + this.images.length;
-    },
-    address() {
-      return this.city + ", " + this.country;
-    },
-  },
-};
-</script>

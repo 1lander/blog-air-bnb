@@ -1,3 +1,12 @@
+<script setup>
+import { useAirBnbStore } from "~~/stores/airBnb";
+import ListingCard from "~/components/ListingCard.vue";
+import ReviewCard from "~~/components/ReviewCard.vue";
+import HostCardVue from "~~/components/HostCard.vue";
+
+const store = useAirBnbStore();
+</script>
+
 <template>
   <div v-if="store.airBnbListing" class="flex justify-center gap-9 flex-wrap">
     <div class="flex-col gap-9">
@@ -45,18 +54,3 @@
     </div>
   </div>
 </template>
-
-<script setup>
-import { useAirBnbStore } from "~~/stores/airBnb";
-import ListingCard from "~/components/ListingCard.vue";
-import ReviewCard from "~~/components/ReviewCard.vue";
-import HostCardVue from "~~/components/HostCard.vue";
-
-const store = useAirBnbStore();
-
-onMounted(() => {
-  if (!store.airBnbListing) {
-    store.getAirBnbListing();
-  }
-});
-</script>

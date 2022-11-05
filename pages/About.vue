@@ -1,3 +1,10 @@
+<script setup>
+import { useAirBnbStore } from "~~/stores/airBnb";
+import HostCardVue from "~~/components/HostCard.vue";
+
+const store = useAirBnbStore();
+</script>
+
 <template>
   <div v-if="store.host" class="flex justify-center gap-9 flex-wrap">
     <HostCardVue
@@ -10,16 +17,3 @@
     />
   </div>
 </template>
-
-<script setup>
-import { useAirBnbStore } from "~~/stores/airBnb";
-import HostCardVue from "~~/components/HostCard.vue";
-
-const store = useAirBnbStore();
-
-onMounted(() => {
-  if(!store.host){
-    store.getAirBnbListing()
-  }
-})
-</script>

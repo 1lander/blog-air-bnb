@@ -1,3 +1,39 @@
+<script setup>
+import {
+  CheckBadgeIcon,
+  ChatBubbleBottomCenterIcon,
+  LanguageIcon,
+  TrophyIcon,
+} from "@heroicons/vue/24/solid";
+
+defineProps({
+  name: {
+    type: String,
+    default: "Title",
+  },
+  description: {
+    type: String,
+    default: "desc",
+  },
+  isSuperhost: {
+    type: Boolean,
+    default: false,
+  },
+  badges: {
+    type: [Object],
+    default: [],
+  },
+  languages: {
+    type: [String],
+    default: [],
+  },
+  profilePic: {
+    type: String,
+    default: "profile pic",
+  },
+})
+</script>
+
 <template>
   <div
     class="max-w-xl mb-5 py-2 px-6 rounded overflow-hidden bg-neutral-50 shadow-md"
@@ -46,58 +82,3 @@
     <div v-html="description" class="text-gray-700 text-base"></div>
   </div>
 </template>
-
-<script>
-import {
-  CheckBadgeIcon,
-  ChatBubbleBottomCenterIcon,
-  LanguageIcon,
-  TrophyIcon,
-} from "@heroicons/vue/24/solid";
-
-export default {
-  name: "ReviewCard",
-  components: {
-    CheckBadgeIcon,
-    ChatBubbleBottomCenterIcon,
-    LanguageIcon,
-    TrophyIcon,
-  },
-  props: {
-    name: {
-      type: String,
-      default: "Title",
-    },
-    description: {
-      type: String,
-      default: "desc",
-    },
-    isSuperhost: {
-      type: Boolean,
-      default: false,
-    },
-    badges: {
-      type: [Object],
-      default: [],
-    },
-    languages: {
-      type: [String],
-      default: [],
-    },
-    profilePic: {
-      type: String,
-      default: "profile pic",
-    },
-  },
-  data() {
-    return {
-      showFullDescription: false,
-    };
-  },
-  methods: {
-    toggleReadMore() {
-      this.showFullDescription = !this.showFullDescription;
-    },
-  },
-};
-</script>

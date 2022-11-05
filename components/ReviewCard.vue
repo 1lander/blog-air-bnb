@@ -1,9 +1,5 @@
 <script setup>
-import {
-  StarIcon,
-  UserIcon,
-  BuildingOffice2Icon,
-} from "@heroicons/vue/24/solid";
+import { StarIcon } from "@heroicons/vue/24/solid";
 import moment from "moment";
 
 const props = defineProps({

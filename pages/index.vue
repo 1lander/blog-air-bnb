@@ -12,7 +12,7 @@ const store = useAirBnbStore();
     <div class="flex-col gap-9">
       <div>
         <h1 class="font-medium leading-tight text-5xl mb-2 text-black-600">
-          Our appartement
+          Our apartment
         </h1>
         <ListingCard
           :title="store.airBnbListing.name"

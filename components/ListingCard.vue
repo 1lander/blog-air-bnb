@@ -68,7 +68,7 @@ const descriptionView = computed(() => {
 })
 
 const imageIndicator = computed(() => {
-  return imageIndex.valie + 1 + "/" + props.images.length;
+  return `${imageIndex.value + 1}/${props.images.length}`
 })
 
 const address = computed(() => {
